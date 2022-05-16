@@ -1,12 +1,22 @@
-/*-------------------
-*	 SERVER CODE
---------------------*/
-
-#include <SockLib/SockLib.h>
 
 
+/*-------------------------
+*
+*		  SERVER
+*
+--------------------------*/
 
-int main() 
+
+#include <iostream>
+#include <stdlib.h>
+#include <Windows.h>
+#include "SockLib.h"
+
+using namespace SockLib;
+using namespace std;
+
+int main()
 {
-	return 0;
+	SocketUtils::Init();
+	Sleep(10000);
 }

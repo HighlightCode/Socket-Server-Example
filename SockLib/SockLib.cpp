@@ -3,15 +3,5 @@
 
 #include "pch.h"
 #include "framework.h"
+#include "SockLib.h"
 
-// TODO: 라이브러리 함수의 예제입니다.
-void fnSockLib()
-{
-}
-
-namespace SockLib
-{
-	int ReturnFive() {
-		return 5;
-	}
-}

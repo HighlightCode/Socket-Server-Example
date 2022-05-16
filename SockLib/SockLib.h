@@ -1,6 +1,5 @@
 #pragma once
 
-namespace SockLib
-{
-	int ReturnFive() {}
-}
+#include "SocketUtils.h"
+#include "CoreMacro.h"
+
